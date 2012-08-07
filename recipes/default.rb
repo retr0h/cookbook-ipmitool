@@ -22,7 +22,7 @@ package "ipmitool" do
 end
 
 service "ipmievd" do
-  supports :restart => true, :status => true
+  supports :restart => true
 
   action [ :enable, :start ]
 end
