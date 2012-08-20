@@ -10,8 +10,15 @@ describe_recipe "cookbook-ipmitool" do
   end
 
   describe "services" do
-    it "runs as a daemon" do
-      service("ipmievd").must_be_running
+    ##
+    # Tough to test this on a Virtual Machine.
+    # Service will fail to start due to missing device.
+
+    ipmi_device = ::File.join ::File::SEPARATOR, "dev", "ipmi0"
+    if ::File.exists? ipmi_device
+      it "runs as a daemon" do
+        service("ipmievd").must_be_running
+      end
     end
 
     it "boots on startup" do
