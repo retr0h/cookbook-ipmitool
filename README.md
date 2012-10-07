@@ -11,12 +11,16 @@ Requirements
 Attributes
 ==========
 
+* default['ipmitool']['cmd'] - Path to the ipmitool binary.
+
 Usage
 =====
 
-    "run_list": [
-      "recipe[ipmitool]"
-    ]
+```json
+"run_list": [
+    "recipe[ipmitool]"
+]
+```
 
 default
 ----
