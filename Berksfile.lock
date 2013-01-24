@@ -1,0 +1,1 @@
+cookbook 'cookbook-ipmitool', :path => '/home/jdewey/git/cookbook-ipmitool'
