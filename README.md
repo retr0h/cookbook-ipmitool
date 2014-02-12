@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/retr0h/cookbook-ipmitool.png?branch=master)](https://travis-ci.org/retr0h/cookbook-ipmitool)
+[![Dependency Status](https://gemnasium.com/retr0h/cookbook-ipmitool.png)](https://gemnasium.com/retr0h/cookbook-ipmitool)
 
 Description
 ===========
