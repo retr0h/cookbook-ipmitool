@@ -6,14 +6,14 @@ describe 'ipmitool::default' do
   let(:chef_run) { ChefSpec::Runner.new.converge(described_recipe) }
 
   it 'installs package' do
-    chef_run.should upgrade_package 'ipmitool'
+    expect(chef_run).to upgrade_package 'ipmitool'
   end
 
   it 'starts service' do
-    chef_run.should start_service 'ipmievd'
+    expect(chef_run).to start_service 'ipmievd'
   end
 
   it 'enables service' do
-    chef_run.should enable_service 'ipmievd'
+    expect(chef_run).to enable_service 'ipmievd'
   end
 end
