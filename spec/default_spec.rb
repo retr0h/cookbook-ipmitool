@@ -14,6 +14,6 @@ describe 'ipmitool::default' do
   end
 
   it 'enables service' do
-    chef_run.should set_service_to_start_on_boot 'ipmievd'
+    chef_run.should enable_service 'ipmievd'
   end
 end
