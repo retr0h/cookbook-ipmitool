@@ -1,7 +1,7 @@
-{
-  "sources": {
-    "ipmitool": {
-      "path": "."
-    }
-  }
-}
+DEPENDENCIES
+  ipmitool
+    path: .
+    metadata: true
+
+GRAPH
+  ipmitool (1.1.0)
