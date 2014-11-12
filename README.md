@@ -1,5 +1,6 @@
-[![Build Status](https://travis-ci.org/retr0h/cookbook-ipmitool.png?branch=master)](https://travis-ci.org/retr0h/cookbook-ipmitool)
-[![Dependency Status](https://gemnasium.com/retr0h/cookbook-ipmitool.png)](https://gemnasium.com/retr0h/cookbook-ipmitool)
+[![Build Status](http://img.shields.io/travis/retr0h/cookbook-ipmitool.svg?style=flat-square)](https://travis-ci.org/retr0h/cookbook-ipmitool)
+[![Dependency Status](http://img.shields.io/gemnasium/retr0h/cookbook-ipmitool.svg?style=flat-square)](https://gemnasium.com/retr0h/cookbook-ipmitool)
+[![Chef](http://img.shields.io/cookbook/v/ipmitool.svg?style=flat-square)](https://supermarket.getchef.com/cookbooks/ipmitool)
 
 Description
 ===========
