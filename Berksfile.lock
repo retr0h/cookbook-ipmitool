@@ -4,4 +4,4 @@ DEPENDENCIES
     metadata: true
 
 GRAPH
-  ipmitool (1.1.0)
+  ipmitool (1.1.1)
