@@ -169,7 +169,7 @@ GEM
     proxifier (1.0.3)
     rack (1.6.12)
     rainbow (2.1.0)
-    rake (11.2.2)
+    rake (12.3.3)
     retryable (2.0.4)
     ridley (4.6.1)
       addressable
@@ -260,7 +260,7 @@ DEPENDENCIES
   chef (~> 12.13)
   chefspec (~> 5.0)
   foodcritic (~> 7.1)
-  rake (~> 11.2)
+  rake (~> 12.3)
   rubocop (~> 0.42)
   stove (~> 4.1)
 
